@@ -93,10 +93,4 @@ describe('Shopping List', function() {
         done();
       });
   });
-
-    // after(function(done) {
-    //     Item.remove(function() {
-    //         done();
-    //     });
-    // });
 });

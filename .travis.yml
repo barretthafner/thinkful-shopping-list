@@ -8,4 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
-before_install: 'cd node/mongo-shopping-list/'
+deploy:
+  provider: heroku
+  api_key:
+    secure: ggxzO7UTxYdG8Snx7PCQALQa663rPgKANkgCF0KSkLmTZbQRnQrMewm8LvlzbLlTOjp1vJ0vrb5GzSvSlO7zobBxvzEfZcmqsbQPu3TkezZxfl59JSMGUPEcDn6xTX8pbrFoDR5Uz+XVL+qFmRRcEu0Z3/yo9suKvRsGhqs41N1Kk39DITqG2vL7rMXT44CRICIGXoGMZJTaWbop6FLk03n6a6jX/arsY69d3pwzJjwVnypp5X//dWo+Xotfbddt83h7qr/33RkXoCvp2eTJZOaYfHxKFHe0ZD6LMrrsy+sAyLE56yfqcbZi9D49hlvpaizKbuta25cphePiXRbfXIKKxiWPjOFJAcVFlxcWI6qQD43v9c4L8NIz8aINOWqfHy0QN8PSwR7bw5qqMmOduI6Dm3sr0PZkmXq2bAwz+LD43MAq0RzYOhqsA/AV5Rl/8THDLTb+5Yq6YoO/JgnbAcPWmvvIcfacl8cCcPDRVD0Xuvz8Ie1aCXKAL93QsII9fVDeG6IuXHsqsdAMfyxacPaF3zq+CmUtIrEUugMLbqu8Ynd/qLiIPanwFuYGGGUsFb4HZbyNwI3KhF4DoEpcZhizQhlAyHbobgzJL6WEuwQO4nO7pp1GsjAlBTYWruxss4k6a9Py1+24HuZJZlaJhMWnEo5cYMzT6VHFnqLOYa8=
+  app: thinkful-shopping-list
+  on:
+    repo: barretthafner/thinkful-shopping-list

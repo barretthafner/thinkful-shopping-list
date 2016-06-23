@@ -15,3 +15,7 @@ deploy:
   app: thinkful-shopping-list
   on:
     repo: barretthafner/thinkful-shopping-list
+notifications:
+  email: false
+  slack:
+    secure: Jwhv/yk/ejof+5xPhBafaJpZ/7QPC0W6M8lgzUAPOB7DpRABB6CEZ1SMwAReSrjbasd8WEoOQ8cqUg55un2pYd2+/0zOKtPNJ/tCyV1W9K9wzl8tpKIhqj+8kwT/VQy18nY7N5PY49c9SK0KDo6LrqBiJ9HWMVbN2xI1y8p8cKaq5dlQHuo2NUtCmt0St8mU8qmFprdbISSWFE+KUcQ+dY8thBrLxFbqDauTMXtB5kHxkIUS88aHP5pqnkmx9GX/JPFupPcy/W5YhEBKqeRFxqcgvDwmB4P2ALA6j2IDMrUDJzCOebjI0Ns37DpROshAp1i2kRMx2pihcnhfFMU8jQYCNapZwomvF/FhVni66Hy+729Q90oFmfMOgIc/bi5CqyUJDs5kgcmmrQvn9M3L6d58eYl8/KNzPcn+uCAvYegkLaJdvIgvXGUzpSIObqO6xMpEnIZaaLOQ0W6pwo+wY2aiW75LJDV9jizNV7a3wrzNr+zYz3VsdRbg+7wqGcyOKzK2kirwCCC91ZLFURmheYFGfOS1BsPzQqRKXFI9J5akzX0CIfBnKbURxdOnTlGcQ2yl54hULzR+xHzFjHoff35pjshAexYprDJTPrsrl9Fxa3G7v/1JXNdHmwT1iZAMF2Vr5+6GaZaOLGhmqeu4Ajl6/+hkyiN28mMRER8+XqE=

@@ -15,9 +15,11 @@ var storage = {};
 
 describe('Shopping List', function() {
     before(function(done) {
-        seed.run(function(items) {
+        Item.remove(function() {
+          seed.run(function(items) {
             storage.items = items;
             done();
+          });
         });
     });
 
@@ -92,9 +94,9 @@ describe('Shopping List', function() {
       });
   });
 
-    after(function(done) {
-        Item.remove(function() {
-            done();
-        });
-    });
+    // after(function(done) {
+    //     Item.remove(function() {
+    //         done();
+    //     });
+    // });
 });
